@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(168, 236, 213); */
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+
+}
+
+.logo img {
+    width: 40px;
+
+}
+
+.left {
+    width: 100%;
+    height: 100vh;
+    padding: 30px 10px 10px 25px;
+    border-right: 1px solid #80808021;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(40, 181, 247);
+}
+ 
+.left ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 28px;
+}
+
+ul li img {
+    width: 25px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.left ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.twtbtn {
+    padding: 9px 55px;
+    background-color: rgb(40, 181, 247);
+    border-radius: 21px;
+    border: transparent;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.twtbtn:hover {
+    color: rgb(5, 5, 5);
+    transition: 1s;
+}
+
+.twtbtn2 {
+    margin: 0px 4px;
+    padding: 6px 20px;
+    background-color: rgb(40, 181, 247);
+    border-radius: 21px;
+    border: transparent;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.twtbtn2:hover {
+    color: rgb(5, 5, 5);
+    transition: 1s;
+}
+
+.home {
+    font-weight: 700;
+    width: 100%;
+    border-bottom: 1px solid #80808021;
+    padding: 10px;
+}
+
+
+
+.middle {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+    gap: 6px;
+    background-color: #80808021;
+    border-right: 1px solid gray;
+}
+
+.miduppr {
+    background-color: rgb(255, 255, 255);
+}
+
+.happingarea {
+    /* box-shadow: 1px 5px 2px 0px gray; */
+    height: 90px;
+    width: 100%;
+}
+
+.whatshappening {
+    padding: 2px 5px;
+    gap: 12px;
+    display: flex;
+}
+
+.whatshappening input {
+    border: none;
+    padding: 5px;
+    width: 15rem;
+}
+
+.postarea {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    /* background-color: #80808021; */
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+}
+
+.smallpost {
+    padding: 3px;
+    display: flex;
+    gap: 5px;
+}
+
+.postimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.likearea {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 90px;
+    padding: 5px;
+}
+.likearea img {
+   width: 25px;
+}
+
+.postheadings p {
+    font-size: small;
+}
+
+.right {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.searchtwt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    gap: 3px;
+}
+.searchtwt img{
+    width: 25px;
+}
+
+.searchtwt input {
+    padding: 5px;
+    border: none;
+}
+
+.img {
+    cursor: pointer;
+    background-image: url(img2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    opacity: 0.9;
+}
+
+.ads .img {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    gap: 3px;
+    text-align: center
+}
+
+.img h3 {
+    color: white;
+}
+
+.img a {
+    color: white;
+    position: absolute;
+    bottom: 74px;
+    right: 5px;
+    background-color: #443e3ec2;
+    padding: 6px 12px;
+    width: 106px;
+}
+
+.img a:hover {
+    color: rgb(54, 176, 233);
+    transition: 1s;
+}
+
+.twtbtn3 {
+    margin: 0px auto;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(40, 181, 247);
+    border: transparent;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.twtbtn3:hover {
+    color: rgb(77, 77, 77);
+    transition: 1s;
+}
